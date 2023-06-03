@@ -1280,6 +1280,8 @@ supported_targets! {
     ("aarch64-unknown-hermit", aarch64_unknown_hermit),
     ("x86_64-unknown-hermit", x86_64_unknown_hermit),
 
+    ("riscv32e-unknown-none-elf", riscv32e_unknown_none_elf),
+    ("riscv32ec-unknown-none-elf", riscv32ec_unknown_none_elf),
     ("riscv32i-unknown-none-elf", riscv32i_unknown_none_elf),
     ("riscv32im-unknown-none-elf", riscv32im_unknown_none_elf),
     ("riscv32imc-unknown-none-elf", riscv32imc_unknown_none_elf),

@@ -233,6 +233,10 @@ pub(crate) fn create_object_file(sess: &Session) -> Option<write::Object<'static
             if features.contains("+c") {
                 e_flags |= elf::EF_RISCV_RVC;
             }
+            // Check if embedded base extension is in use
+            if features.contains("+e") {
+                e_flags |= elf::EF_RISCV_RVE;
+            }
 
             // Select the appropriate floating-point ABI
             if features.contains("+d") {

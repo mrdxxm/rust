@@ -293,6 +293,8 @@ target | std | host | notes
 `powerpc64le-unknown-linux-musl` | ? |  |
 [`powerpc64-unknown-openbsd`](platform-support/openbsd.md) | ✓ | ✓ | OpenBSD/powerpc64
 `powerpc64-ibm-aix` | ? |  | 64-bit AIX (7.2 and newer)
+`riscv32e-unknown-none-elf` | * |  | Bare RISC-V Embed (RV32E ISA)
+`riscv32ec-unknown-none-elf` | * |  | Bare RISC-V Embed + Compressed (RV32EC ISA)
 `riscv32gc-unknown-linux-gnu` |   |   | RISC-V Linux (kernel 5.4, glibc 2.33)
 `riscv32gc-unknown-linux-musl` |   |   | RISC-V Linux (kernel 5.4, musl + RISCV32 support patches)
 `riscv32im-unknown-none-elf` | * |  | Bare RISC-V (RV32IM ISA)
